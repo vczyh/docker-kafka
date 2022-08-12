@@ -11,4 +11,4 @@ ENV PATH=${PATH}:${KAFKA_HOME}/bin
 
 ENV CLUSTER_ID 9dJzdGvfTPaCY4e8klXaDQ
 
-ENTRYPOINT [ "sh", "-c", "/run.sh" ]
+CMD ["/run.sh"]
